@@ -1,0 +1,120 @@
+body {
+  background-image: linear-gradient(to right top, #fd87bf, #d763af, #ad43a1, #7e2594, #470d87);
+  color: white;
+  margin: 0;
+  padding: 0.2em 1.4em;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+@media screen and (min-width: 1100px) {
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+  header {
+    display: flex;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  .home {
+    font-size: 2.7em;
+    font-family: cursive;
+  }
+  .aboutme {
+    padding-top: 1.8em;
+    margin-left: auto; 
+  }
+  header > a:hover,
+  header > a:link,
+  header > a:visited {
+    text-decoration: none;
+    color: white; 
+  }
+
+.intro {
+  text-align: center;
+  margin: 6em 12em;
+  word-wrap: break-word;
+}
+
+ul{
+  padding: 1em;
+  font-size: 0.9em;
+  list-style-type: none;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+ul li {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 340px; 
+  margin: 0.1em; 
+}
+ul li img {
+  width: 100%; 
+  height: auto; 
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+a {
+  font-style: normal;
+
+  color: white;
+}
+@media screen and (max-width: 340px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+  
+}
+
+footer {
+  border-top: 1px solid white;
+  padding: 2em 2em;
+  text-align: center;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.first-post {
+  text-align: center;
+  margin-top: 6em;
+  word-wrap: break-word;
+  
+}
+
+.music-img {
+  
+  height: auto;
+  width: 100;
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  margin:6em 6em; 
+}
+
+.music-img img {
+  width: 300px;
+}
+.first-post-align {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.music-text {
+  font-size: 3em;
+
+}
+
+
+

@@ -1,0 +1,20 @@
+{
+    "name": "wddm-121-p1",
+    "version": "0.0.1",
+    "description": "Eleventy Blog",
+    "main": "index.js",
+    "scripts": {
+       "start": "npx @11ty/eleventy --input=src --serve",
+       "build": "npx @11ty/eleventy --input=src"
+    },
+    "keywords": [
+        "Eleventy",
+        "Blog",
+        "jamstack"
+    ],
+    "author": "Samanpreet Kaur",
+    "license": "MIT",
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.0"
+    }
+}
