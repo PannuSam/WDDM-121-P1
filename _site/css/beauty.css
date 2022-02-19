@@ -103,7 +103,7 @@ footer {
   margin:6em 6em; 
 }
 
-.music-img img {
+.music-img{
   width: 300px;
 }
 .first-post-align {
@@ -112,8 +112,16 @@ footer {
 align-items: center;
 }
 .music-text {
-  font-size: 3em;
+  font-size: 1.6em;
 
+}
+img {
+  max-width: 100%
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 

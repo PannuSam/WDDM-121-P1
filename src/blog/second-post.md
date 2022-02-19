@@ -1,17 +1,21 @@
 ---
-title: Beautiful Places
+title: Beautiful Place
 path: ./img/places.jpg
 ---
 
 <div class="first-post">
-In my opinion, below are the beautiful places in this world.
+In my opinion, below is the most beautiful place in this world.
 </div>
-
+<div class="container">
 <div class="first-post-align">
 <figure class="music-img">
         <img src="./img/iceland.jpg" alt="Sorry! Something went wrong.">
-        <span class="music-text">
+        
+ </figure>
+ </div>
+ <div class="music-text">
+ <span>
         Iceland
         </span>
- </figure>
+ </div>
  </div>

@@ -4,7 +4,7 @@ path: ./img/season.jpg
 ---
 
 <div class="first-post">
-In my opinion, below are the best season to enjoy.
+In my opinion, below is the best season to enjoy.
 </div>
 
 <div class="first-post-align">
